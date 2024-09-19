@@ -1,0 +1,14 @@
+.nav-bar-div {
+    height:100vh ;
+    border: 1px solid black;
+    padding: 1rem;
+    gap: 1rem;
+
+    display: grid;
+    grid-template-columns: 5rem auto;
+    
+}
+ .nav-bar-div .img-log {
+    width: 6rem;
+
+ }
