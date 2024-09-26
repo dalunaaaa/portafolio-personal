@@ -2,7 +2,7 @@ let navBarVid =document.createElement('div');
 navBarVid.className = "nav-bar-div";
 
 let imgLogo = document.createElement('img')
-imgLogo.src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fparrot-logo-design-vector-template_559774-665.jpg&f=1&nofb=1&ipt=4633a19f87ba9b4b0b9f90f5a9c50dcfa8ab3000c8b21041243625a9f92356ff&ipo=images";
+imgLogo.src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F09%2FLinux-Logo-1996-present.png&f=1&nofb=1&ipt=7049fcf42454f4f2d3432b94f6aa1feac7e18562cac863035bec18531b1f5c7d&ipo=images";
 imgLogo.className="img-log";
 navBarVid.appendChild(imgLogo);
 
