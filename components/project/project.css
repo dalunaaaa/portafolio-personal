@@ -7,3 +7,28 @@
     flex-direction: column;
     justify-content: center;
  }
+.div-item{
+  border-bottom: 1.5px solid rgb(43, 40, 40);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+
+}
+.link-githubPage{
+    text-decoration: none;
+}
+.btn-github{
+    width: 100%;
+    max-width: 8rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+ 
+}
