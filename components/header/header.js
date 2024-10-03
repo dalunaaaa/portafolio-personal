@@ -11,7 +11,5 @@ function header (){
     div.appendChild(btn);
 
     return div;
-
 }
-
 export { header }
