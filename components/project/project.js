@@ -1,4 +1,5 @@
 import { header } from "../header/header.js";
+import { menu } from "../menu/menu.js";
 import { dataProyectos } from "../../data/data.js";
 
 
@@ -30,7 +31,7 @@ function item (texto,github,githubPage,staks){
     let a = document.createElement('a');
     a.className ="link-githubPage";
     a.href= githubPage;
-    a.innerText = "githubPage";
+    a.innerText = "Nombre Proyecto";
     div.appendChild(a);
 
     let stack = document.createElement('div');
@@ -40,7 +41,7 @@ function item (texto,github,githubPage,staks){
     let btnGithub = document.createElement('a');
     btnGithub.className = "btn-github";
     btnGithub.href = github;
-    btnGithub.innerText = "GitHub";
+    btnGithub.innerText = "github";
     div.appendChild(btnGithub);
 
     
